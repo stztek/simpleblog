@@ -11,7 +11,9 @@ export default function Nav() {
   return (
     <header>
       <nav>
-        <a className="h1-nav" href="/">Simple Blog</a>
+        <a className="h1-nav" href="/">
+          Simple Blog
+        </a>
 
         <div className="nav-container">
           <a href="/">Home</a>
@@ -29,6 +31,14 @@ export default function Nav() {
             <a placeholder="hola" href="/login">
               Iniciar Sesion
             </a>
+          )}
+
+          {!conectado ? (
+            <a placeholder="hola" href="/register">
+              Cerrar Sesión
+            </a>
+          ) : (
+            null
           )}
         </div>
       </nav>
