@@ -1,5 +1,5 @@
 {
-    "routes":  [
-      {"scr": "/post", "destination": "/"}
-    ]
+    "rewrites":  [
+        {"source": "/(.*)", "destination": "/"}
+      ]
   }
