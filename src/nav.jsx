@@ -33,12 +33,10 @@ export default function Nav() {
             </a>
           )}
 
-          {!conectado ? (
+          {conectado ? null : (
             <a placeholder="hola" href="/register">
-              Cerrar Sesión
+              Registrarse
             </a>
-          ) : (
-            null
           )}
         </div>
       </nav>
