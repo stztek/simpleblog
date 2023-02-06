@@ -1,0 +1,42 @@
+header {
+  background-color: rgb(32, 56, 121);
+  width: 100%;
+    color: white;
+}
+header nav{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-right: 10px;
+    justify-content: space-between;
+    height: 40px;
+    box-shadow: 0px 0px 2px rgb(32, 56, 125);
+}
+
+.h1-nav {
+    padding-left: 10px;
+    font-size: 24px;
+
+}
+
+
+
+a{
+    text-decoration:none;
+    font-size: 12px;
+    padding-left: 10px;
+    color: inherit;
+    
+}
+
+@media (max-width: 700px) {
+    header nav {
+        flex-direction: column;
+        text-align: center;
+        height: 100px;
+    }
+    
+    .nav-container{
+        padding-bottom: 40px;
+    }
+}
