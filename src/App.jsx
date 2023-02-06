@@ -71,7 +71,7 @@ function App() {
                 }
               />
               <Route path="/register" element={<Register />} />
-              <Route path="/post" element={<PostingTask />} />
+              <Route basename="/post" element={<PostingTask />} />
               <Route
                 path="/dashboard"
                 element={
