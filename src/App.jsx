@@ -39,7 +39,7 @@ function App() {
     <ContextDisc>
       <Context>
         <div className="App">
-          <BrowserRouter basename="/post">
+          <BrowserRouter>
             <Suspense >
               <Nav />
             </Suspense>
