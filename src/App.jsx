@@ -39,7 +39,7 @@ function App() {
     <ContextDisc>
       <Context>
         <div className="App">
-          <BrowserRouter>
+          <BrowserRouter basename="/post">
             <Suspense >
               <Nav />
             </Suspense>
@@ -71,7 +71,7 @@ function App() {
                 }
               />
               <Route path="/register" element={<Register />} />
-              <Route basename="/post" element={<PostingTask />} />
+              <Route path="/post" element={<PostingTask />} />
               <Route
                 path="/dashboard"
                 element={
