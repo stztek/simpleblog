@@ -19,7 +19,7 @@ export default function Dashboard(props) {
       <div className="dash-container">
         {conectado ? (
           <div>
-            <h1>Hola {usuario}. ¿Que psadasdublicará hoy?</h1>
+            <h1>Hola {usuario}. ¿Que SARAMPAWILONES hoy?</h1>
           </div>
         ) : (
           <div>
